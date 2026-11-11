@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Oblivion's Mighty Trash",
+    "descripcion": "La sangre nueva y fresca de Medellín. Lejos del estilo gansta, su vuelta es el lo-fi, las referencias al skate y la cultura pop, con barras muy ingeniosas y un flow relajado. Un rap alternativo, introspectivo y de parche que revolucionó la nueva escuela.",
+    "colorFondo": "#111111",
+    "colorBorde": "#8B6508", 
+    "colorTitulo": "#FFD700" 
+  },
+  {
+    "id": 2,
+    "title": "Doble Porción",
+    "descripcion": "Una verdadera institución del rap paisa. La unión de Mañas Ru-Fino y el eterno Métricas Frías (Q.E.P.D.). Su sonido es pura bohemia de barrio: crónicas de la noche, melancolía, excesos y la cotidianidad de las calles sobre ritmos que marcaron a toda una generación.",
+    "colorFondo": "#111111",
+    "colorBorde": "#333333",
+    "colorTitulo": "#FFFFFF"
+  },
+  {
+    "id": 3,
+    "title": "Granuja",
+    "descripcion": "El cerebro oscuro detrás del colectivo Moebiuz. Famoso por su voz profunda, su flow pausado y un cinismo brutal al escribir. Hace rap denso y filosófico, soltando verdades incómodas sobre la sociedad en beats oscuros y llenos de samples que él mismo produce.",
+    "colorFondo": "#111111",
+    "colorBorde": "#1a2e1f",
+    "colorTitulo": "#4CAF50"
+  },
+  {
+    "id": 4,
+    "title": "Penyair",
+    "descripcion": "Nostalgia y boom bap clásico directo desde las calles frías. Su estilo destaca por una pluma muy poética y melancólica, abordando temas de salud mental, luchas personales y la vida de barrio. Es rap crudo, vulnerable y con un mensaje que te pega directo en el pecho.",
+    "colorFondo": "#111111",
+    "colorBorde": "#5a0000",
+    "colorTitulo": "#ff4d4d"
+  }
+]

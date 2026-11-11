@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.titulo-pagina {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px 0px #000;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.titulo-pagina .color-amarillo { color: #FFD700; }
+.titulo-pagina .color-azul     { color: #003893; }
+.titulo-pagina .color-rojo     { color: #CE1126; }
+
+.Centrar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(4px);
+
+  background-color: #2a2a2a;
+  border: 6px solid #ffffff;
+}
+
+.Imgen {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.Orga p {
+  color: #cccccc;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.Titulo {
+  color: #fff; /* color por defecto del título */
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 45px;
+  margin: 0 0 10px 0;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+  letter-spacing: 1px;
+}
+
+.Centrar[data-fondo="red"]    .Titulo { color: #f05d5d; } 
+.Centrar[data-fondo="blue"]   .Titulo { color: #61a5c2; } 
+.Centrar[data-fondo="yellow"] .Titulo { color: #d4a373; } 
+.Centrar[data-fondo="green"]  .Titulo { color: #4CAF50; } 
+.Centrar[data-fondo="purple"] .Titulo { color: #b22be7; } 
+.Centrar[data-fondo="pink"]   .Titulo { color: #ff70a6; } 
+.Centrar[data-fondo="orange"] .Titulo { color: #fb8500; } 
+.Centrar[data-fondo="black"]  .Titulo { color: #ffffff; } 
+.Centrar[data-fondo="white"]  .Titulo { color: #2b2b2b; } 
+.Centrar[data-fondo="gray"]   .Titulo { color: #e5e5e5; } 
+
+.reproductor-underground {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: fit-content;
+}
+
+.etiqueta-audio {
+  color: #888;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.audio-rap {
+  height: 35px;
+}
+
+.tarjeta-oblivion {
+  background-color: #3f3f3f;
+  border: 6px solid #20201f;
+}
+.tarjeta-oblivion .Titulo {
+  color: #807f7b;
+}
+
+.tarjeta-dobleporcion {
+  background-color: #c72323;
+  border: 6px solid #611111;
+}
+.tarjeta-dobleporcion .Titulo {
+  color: #f05d5d;
+}
+
+.tarjeta-granuja {
+  background-color: #1c3824;
+  border: 6px solid #0a170f;
+}
+.tarjeta-granuja .Titulo {
+  color: #4CAF50;
+}
+
+.tarjeta-penyair {
+  background-color: #5e0b77;
+  border: 6px solid #380550;
+}
+.tarjeta-penyair .Titulo {
+  color: #b22be7;
+}
+
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.boton-imagen {
+  width: 180px;
+  height: auto;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.boton-imagen:hover {
+  transform: scale(1.05);
+  border-color: #4e0c0c;
+}
